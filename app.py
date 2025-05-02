@@ -134,4 +134,4 @@ def extract_text_from_pdf(file_path):
         return ''
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
